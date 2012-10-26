@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BB85EDEC1639701700B13936 /* katz_distance.png in Resources */ = {isa = PBXBuildFile; fileRef = BB85EDEB1639701700B13936 /* katz_distance.png */; };
 		BBA86A35163925A8007DE67A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBA86A34163925A8007DE67A /* UIKit.framework */; };
 		BBA86A37163925A8007DE67A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBA86A36163925A8007DE67A /* Foundation.framework */; };
 		BBA86A39163925A8007DE67A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBA86A38163925A8007DE67A /* CoreGraphics.framework */; };
@@ -18,9 +19,12 @@
 		BBA86A4B163925A8007DE67A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BBA86A4A163925A8007DE67A /* Default-568h@2x.png */; };
 		BBA86A4E163925A8007DE67A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBA86A4D163925A8007DE67A /* ViewController.m */; };
 		BBA86A51163925A8007DE67A /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BBA86A4F163925A8007DE67A /* ViewController.xib */; };
+		BBA86A58163925F6007DE67A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBA86A57163925F6007DE67A /* CoreLocation.framework */; };
+		BBA86A5A1639364D007DE67A /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBA86A591639364D007DE67A /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BB85EDEB1639701700B13936 /* katz_distance.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = katz_distance.png; sourceTree = "<group>"; };
 		BBA86A30163925A8007DE67A /* Distance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Distance.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBA86A34163925A8007DE67A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		BBA86A36163925A8007DE67A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -37,6 +41,8 @@
 		BBA86A4C163925A8007DE67A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		BBA86A4D163925A8007DE67A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		BBA86A50163925A8007DE67A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		BBA86A57163925F6007DE67A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		BBA86A591639364D007DE67A /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +50,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBA86A5A1639364D007DE67A /* MapKit.framework in Frameworks */,
+				BBA86A58163925F6007DE67A /* CoreLocation.framework in Frameworks */,
 				BBA86A35163925A8007DE67A /* UIKit.framework in Frameworks */,
 				BBA86A37163925A8007DE67A /* Foundation.framework in Frameworks */,
 				BBA86A39163925A8007DE67A /* CoreGraphics.framework in Frameworks */,
@@ -56,6 +64,9 @@
 		BBA86A25163925A8007DE67A = {
 			isa = PBXGroup;
 			children = (
+				BB85EDEB1639701700B13936 /* katz_distance.png */,
+				BBA86A591639364D007DE67A /* MapKit.framework */,
+				BBA86A57163925F6007DE67A /* CoreLocation.framework */,
 				BBA86A3A163925A8007DE67A /* Distance */,
 				BBA86A33163925A8007DE67A /* Frameworks */,
 				BBA86A31163925A8007DE67A /* Products */,
@@ -163,6 +174,7 @@
 				BBA86A49163925A8007DE67A /* Default@2x.png in Resources */,
 				BBA86A4B163925A8007DE67A /* Default-568h@2x.png in Resources */,
 				BBA86A51163925A8007DE67A /* ViewController.xib in Resources */,
+				BB85EDEC1639701700B13936 /* katz_distance.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,6 +302,7 @@
 				BBA86A56163925A8007DE67A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
